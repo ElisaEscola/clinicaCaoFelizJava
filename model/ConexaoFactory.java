@@ -1,9 +1,0 @@
-/**
- * ConexaoFactory
- */
-public class ConexaoFactory {
-
-
-    
-
-}
