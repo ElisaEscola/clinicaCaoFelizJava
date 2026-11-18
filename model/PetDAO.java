@@ -1,7 +1,3 @@
-package model;
-
-import controller.ConexaoFactory;
-
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -10,7 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class PetDAO {
-//teste
+
     // 1. CREATE (Inserir novo Pet no banco)
     public void cadastrar(Pet pet) {
         // O '?' funciona como um espaço reservado para evitar SQL Injection
@@ -23,7 +19,6 @@ public class PetDAO {
             // TODO 1: Substitua os '?' pelos dados do objeto 'pet' usando stmt.setString() e stmt.setInt()
             // Dica: A contagem dos '?' começa sempre no número 1!
             stmt.setString(1, pet.getNome());
-            stmt.setString(2, pet);
             // stmt.setString(2, ...);
             // stmt.setInt(3, ...);
 
