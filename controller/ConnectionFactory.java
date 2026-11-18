@@ -1,4 +1,4 @@
-package factory;
+package clinicaCaoFelizJava.controller;
 
 // TODO 1: importe as 3 classes do pacote java.sql que você vai usar:
 // Connection, DriverManager e SQLException
